@@ -1,0 +1,33 @@
+{
+  "name": "pw-smashburger",
+  "version": "1.0.0",
+  "description": "Playwright test automation framework with TypeScript and Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:codegen": "playwright codegen",
+    "test:install": "playwright install",
+    "test:install-deps": "playwright install-deps",
+    "test:headed-debug": "playwright test --headed --debug",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:safari": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project='Mobile Chrome' --project='Mobile Safari'",
+    "start": "echo 'Add your app start command here'"
+  },
+  "keywords": ["playwright", "testing", "automation", "typescript", "pom"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^24.3.1",
+    "dotenv": "^17.2.2",
+    "typescript": "^5.9.2"
+  }
+}
