@@ -25,7 +25,7 @@ export default defineConfig({
     navigationTimeout: 30000,
     headless: true,
     launchOptions: {
-      slowMo: 300 //add mini-delay to mimic person clicking
+      slowMo: 5 //adjust mini-delay to mimic person interacting
     }
   },
   projects: [

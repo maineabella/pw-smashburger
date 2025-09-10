@@ -17,8 +17,8 @@ export abstract class BasePage {
       // Ensure no double slashes
       targetUrl = `${this.url.replace(/\/+$/, '')}/${path.replace(/^\/+/, '')}`;
     }
-
-    await this.page.goto(targetUrl, { waitUntil: 'load' });
+    await this.page.goto(targetUrl, { waitUntil: 'domcontentloaded' });
+    await expect(this.page).toHaveURL(targetUrl);
   }
 
   
