@@ -20,7 +20,7 @@ src/
 │   └── checkout.spec.ts
 ├── fixtures/        # Test data
 │   └── loginUsers.ts
-└── examples/        # Learning examples
+└── helpers/        # Test helpers
 ```
 
 ## Environment Setup

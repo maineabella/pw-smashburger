@@ -1,0 +1,109 @@
+[
+  {
+    "Id": 10049159870,
+    "ProductId": 23239170,
+    "ChainProductId": 915182,
+    "Name": "DOUBLE SMOKED BRISKET BACON SMASH®",
+    "Quantity": 1,
+    "BaseCost": 14.99,
+    "TotalCost": 14.99,
+    "SpecialInstructions": "",
+    "CustomData": "",
+    "Recipient": "",
+    "Choices": [
+      {
+        "Id": 46057519157,
+        "OptionId": 3955501389,
+        "Name": "BBQ Sauce",
+        "Metric": 0,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      },
+      {
+        "Id": 46057519158,
+        "OptionId": 3955501388,
+        "Name": "Pickles",
+        "Metric": 1,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      }
+    ],
+    "CustomPassthroughData": null,
+    "Image": "https://placecats.com/300/200"
+  },
+  {
+    "Id": 10049159871,
+    "ProductId": 23238610,
+    "ChainProductId": 915266,
+    "Name": "AMERICANA DOG",
+    "Quantity": 1,
+    "BaseCost": 4.99,
+    "TotalCost": 4.99,
+    "SpecialInstructions": "",
+    "CustomData": "",
+    "Recipient": "",
+    "Choices": [
+      {
+        "Id": 46057519159,
+        "OptionId": 3955489386,
+        "Name": "Ketchup",
+        "Metric": 0,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      },
+      {
+        "Id": 46057519160,
+        "OptionId": 3955489390,
+        "Name": "Mustard",
+        "Metric": 1,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      },
+      {
+        "Id": 46057519161,
+        "OptionId": 3955489396,
+        "Name": "Sweet Relish",
+        "Metric": 2,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      },
+      {
+        "Id": 46057519162,
+        "OptionId": 3955489394,
+        "Name": "Diced Red Onion",
+        "Metric": 3,
+        "Indent": 0,
+        "Cost": 0,
+        "Quantity": 1,
+        "CustomFields": null
+      }
+    ],
+    "CustomPassthroughData": null,
+    "Image": "https://placecats.com/neo/300/200"
+  },
+  {
+    "Id": 10049159875,
+    "ProductId": 23238670,
+    "ChainProductId": 915252,
+    "Name": "4 CLASSICS BUNDLE",
+    "Quantity": 1,
+    "BaseCost": 28.76,
+    "TotalCost": 28.76,
+    "SpecialInstructions": "",
+    "CustomData": "",
+    "Recipient": "",
+    "Choices": [],
+    "CustomPassthroughData": null,
+    "Image": "https://placecats.com/millie/300/150"
+  }
+]
