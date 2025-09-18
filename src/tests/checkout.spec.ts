@@ -4,9 +4,7 @@ import { test } from './fixtures/test-fixtures';
 //Set C.Y.O. burger modifiers
 const customBurger = {
   options: [
-    'Black Bean +$9.19 Add 180',
-  ],
-  radios: [
+    'Black Bean $9.19 Add 180',
     'Classic Add 190 Calories',
     'Aged Swiss Add 80 Calories',
   ],
@@ -33,14 +31,10 @@ test.describe('End-to-End: Place an order with specific modifier', () => {
 
     // --- And: user fills out the order details ---
     await locationsPage.startOrder('Pickup', '80246', 'Glendale');
-    await menuPage.clickPickASize();
 
     // --- And: user selects set custom modifiers ---
     for (const option of customBurger.options) {
-      await menuPage.selectDropdown(option);
-    }
-    for (const radio of customBurger.radios) {
-      await menuPage.selectRadio(radio);
+      await menuPage.selectRadio(option);
     }
     for (const checkbox of customBurger.checkboxes) {
       await menuPage.selectCheckbox(checkbox);
